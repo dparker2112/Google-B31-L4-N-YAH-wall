@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   for(int a=0;a<3;a++){
     for(int c=0;c<2;c++){
-      digitalWrite(dir[a],c);
+      digitalWrite(dir[a],0);
       for(int b=0;b<1600;b++){
         digitalWrite(pulse[a],1);
         delayMicroseconds(200);
